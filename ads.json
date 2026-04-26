@@ -31,7 +31,7 @@
   "1.0.0": {
     "app_name": "Daily Spins Link for CM Master",
     "globalconfig": {
-      "globalflag": false,
+      "globalflag": true,
       "globalnative": true,
       "globalbanner": false,
       "rewardoverride": false,
@@ -43,27 +43,17 @@
     "isUpdate": false,
     "updateurl": "https://apps.apple.com/us/app/quiziland-for-trivia-quiz-game/id6742006445",
     "screens": {
-      "/HomeView": {
+      "/": {
         "localflag": true,
         "localclick": [
-          -10
+          0
         ],
         "localfail": {
           "0": -10,
           "3": 4
         },
         "actions": {
-          "collectNowBtn": {
-            "localflag": true,
-            "localclick": [
-              -10,
-              0
-            ],
-            "localfail": {
-              "0": -10
-            }
-          },
-          "matchGameBtn": {
+          "documentInfo": {
             "localflag": true,
             "localclick": [
               0
@@ -72,7 +62,7 @@
               "0": -10
             }
           },
-          "quizBtn": {
+          "fillSign": {
             "localflag": true,
             "localclick": [
               0
@@ -81,7 +71,7 @@
               "0": -10
             }
           },
-          "wordGameBtn": {
+          "security": {
             "localflag": true,
             "localclick": [
               0
@@ -90,7 +80,30 @@
               "0": -10
             }
           },
-          "resetWordGameBtn": {
+          "saveToDevice": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": 0,
+        "native": -10
+      },
+      "/pdf-viewer": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": -10,
+          "3": 4
+        },
+        "actions": {
+          "documentInfo": {
             "localflag": true,
             "localclick": [
               0
@@ -99,19 +112,284 @@
               "0": -10
             }
           },
-          "tipsBtn": {
-            "localflag": false,
+          "nightMode": {
+            "localflag": true,
             "localclick": [
-              -10
+              0
             ],
             "localfail": {
               "0": -10
             }
           },
-          "blogBtn": {
-            "localflag": false,
+          "annotationsSave": {
+            "localflag": true,
             "localclick": [
-              -10
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "save": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "saveAs": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "duplicate": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "compress": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "flattenAnnotations": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": 0,
+        "native": -10
+      },
+      "/forms": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": -10,
+          "3": 4
+        },
+        "actions": {
+          "save": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": 0,
+        "native": -10
+      },
+      "/security": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": -10,
+          "3": 4
+        },
+        "actions": {
+          "addPassword": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "removePassword": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "addWatermak": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": 0,
+        "native": -10
+      },
+      "/pages": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": -10,
+          "3": 4
+        },
+        "actions": {
+          "savePDF": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "splitPDF": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "extractPage": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": 0,
+        "native": -10
+      },
+      "/image-to-pdf": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": -10,
+          "3": 4
+        },
+        "actions": {
+          "convert": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": 0,
+        "native": -10
+      },
+      "/merge-pdf": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": -10,
+          "3": 4
+        },
+        "actions": {
+          "merge": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": 0,
+        "native": -10
+      },
+      "/split-pdf": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": -10,
+          "3": 4
+        },
+        "actions": {
+          "split": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": 0,
+        "native": -10
+      },
+      "/compress-pdf": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": -10,
+          "3": 4
+        },
+        "actions": {
+          "compress": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": 0,
+        "native": -10
+      },
+      "/scan-review": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": -10,
+          "3": 4
+        },
+        "actions": {
+          "createPDF": {
+            "localflag": true,
+            "localclick": [
+              0
             ],
             "localfail": {
               "0": -10
@@ -124,7 +402,7 @@
     },
     "actions": {
       "SplashScreen": {
-        "localflag": true,
+        "localflag": false,
         "localclick": [
           0
         ],
