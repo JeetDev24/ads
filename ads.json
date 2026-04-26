@@ -40,7 +40,7 @@
       "maxadfailed": 2
     },
     "userconsent": false,
-    "isUpdate": false,
+    "isUpdate": true,
     "updateurl": "",
     "screens": {
       "/home": {
