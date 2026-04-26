@@ -284,6 +284,29 @@
         "banner": 0,
         "native": -10
       },
+      "/tools": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": -10,
+          "3": 4
+        },
+        "actions": {
+          "convert": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": 0,
+        "native": -10
+      },
       "/image-to-pdf": {
         "localflag": true,
         "localclick": [
