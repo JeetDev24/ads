@@ -41,7 +41,7 @@
     },
     "userconsent": false,
     "isUpdate": false,
-    "updateurl": "https://apps.apple.com/us/app/quiziland-for-trivia-quiz-game/id6742006445",
+    "updateurl": "",
     "screens": {
       "/home": {
         "localflag": true,
