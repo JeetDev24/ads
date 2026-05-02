@@ -1,5 +1,5 @@
 {
-  "os": "93c1dd47-e631-4375-b79e-9cf28e862ae7",
+  "os": "",
   "assets": {
     "privacyPolicy": "https://www.google.com/",
     "shareApp": "https://www.google.com/",
@@ -43,7 +43,7 @@
     "isUpdate": false,
     "updateurl": "",
     "screens": {
-      "/home": {
+      "/": {
         "localflag": true,
         "localclick": [
           0
@@ -51,49 +51,23 @@
         "localfail": {
           "0": -10,
           "3": 4
-        },
-        "actions": {
-          "documentInfo": {
-            "localflag": true,
-            "localclick": [
-              0
-            ],
-            "localfail": {
-              "0": -10
-            }
-          },
-          "fillSign": {
-            "localflag": true,
-            "localclick": [
-              0
-            ],
-            "localfail": {
-              "0": -10
-            }
-          },
-          "security": {
-            "localflag": true,
-            "localclick": [
-              0
-            ],
-            "localfail": {
-              "0": -10
-            }
-          },
-          "saveToDevice": {
-            "localflag": true,
-            "localclick": [
-              0
-            ],
-            "localfail": {
-              "0": -10
-            }
-          }
         },
         "banner": 0,
         "native": -10
       },
-      "/pdf-viewer": {
+      "/all-tools": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": -10,
+          "3": 4
+        },
+        "banner": 0,
+        "native": -10
+      },
+      "/converter": {
         "localflag": true,
         "localclick": [
           0
@@ -103,7 +77,7 @@
           "3": 4
         },
         "actions": {
-          "documentInfo": {
+          "selectImage": {
             "localflag": true,
             "localclick": [
               0
@@ -112,16 +86,7 @@
               "0": -10
             }
           },
-          "nightMode": {
-            "localflag": true,
-            "localclick": [
-              0
-            ],
-            "localfail": {
-              "0": -10
-            }
-          },
-          "annotationsSave": {
+          "convert": {
             "localflag": true,
             "localclick": [
               0
@@ -138,17 +103,22 @@
             "localfail": {
               "0": -10
             }
-          },
-          "saveAs": {
-            "localflag": true,
-            "localclick": [
-              0
-            ],
-            "localfail": {
-              "0": -10
-            }
-          },
-          "duplicate": {
+          }
+        },
+        "banner": 0,
+        "native": -10
+      },
+      "/compression": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": -10,
+          "3": 4
+        },
+        "actions": {
+          "selectImage": {
             "localflag": true,
             "localclick": [
               0
@@ -166,29 +136,6 @@
               "0": -10
             }
           },
-          "flattenAnnotations": {
-            "localflag": true,
-            "localclick": [
-              0
-            ],
-            "localfail": {
-              "0": -10
-            }
-          }
-        },
-        "banner": 0,
-        "native": -10
-      },
-      "/forms": {
-        "localflag": true,
-        "localclick": [
-          0
-        ],
-        "localfail": {
-          "0": -10,
-          "3": 4
-        },
-        "actions": {
           "save": {
             "localflag": true,
             "localclick": [
@@ -202,7 +149,7 @@
         "banner": 0,
         "native": -10
       },
-      "/security": {
+      "/resize": {
         "localflag": true,
         "localclick": [
           0
@@ -212,7 +159,7 @@
           "3": 4
         },
         "actions": {
-          "addPassword": {
+          "selectImage": {
             "localflag": true,
             "localclick": [
               0
@@ -221,7 +168,7 @@
               "0": -10
             }
           },
-          "removePassword": {
+          "resize": {
             "localflag": true,
             "localclick": [
               0
@@ -230,7 +177,7 @@
               "0": -10
             }
           },
-          "addWatermak": {
+          "save": {
             "localflag": true,
             "localclick": [
               0
@@ -243,7 +190,7 @@
         "banner": 0,
         "native": -10
       },
-      "/pages": {
+      "/editor": {
         "localflag": true,
         "localclick": [
           0
@@ -253,7 +200,7 @@
           "3": 4
         },
         "actions": {
-          "savePDF": {
+          "selectImage": {
             "localflag": true,
             "localclick": [
               0
@@ -262,7 +209,7 @@
               "0": -10
             }
           },
-          "splitPDF": {
+          "upperSave": {
             "localflag": true,
             "localclick": [
               0
@@ -271,7 +218,7 @@
               "0": -10
             }
           },
-          "extractPage": {
+          "bottomSave": {
             "localflag": true,
             "localclick": [
               0
@@ -284,7 +231,7 @@
         "banner": 0,
         "native": -10
       },
-      "/tools": {
+      "/adjustments": {
         "localflag": true,
         "localclick": [
           0
@@ -294,7 +241,25 @@
           "3": 4
         },
         "actions": {
-          "convert": {
+          "selectImage": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "upperSave": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "bottomSave": {
             "localflag": true,
             "localclick": [
               0
@@ -307,7 +272,7 @@
         "banner": 0,
         "native": -10
       },
-      "/image-to-pdf": {
+      "/filters": {
         "localflag": true,
         "localclick": [
           0
@@ -317,7 +282,25 @@
           "3": 4
         },
         "actions": {
-          "convert": {
+          "selectImage": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "upperSave": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "bottomSave": {
             "localflag": true,
             "localclick": [
               0
@@ -330,7 +313,7 @@
         "banner": 0,
         "native": -10
       },
-      "/merge-pdf": {
+      "/effects": {
         "localflag": true,
         "localclick": [
           0
@@ -340,7 +323,25 @@
           "3": 4
         },
         "actions": {
-          "merge": {
+          "selectImage": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "upperSave": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "bottomSave": {
             "localflag": true,
             "localclick": [
               0
@@ -353,7 +354,7 @@
         "banner": 0,
         "native": -10
       },
-      "/split-pdf": {
+      "/drawing": {
         "localflag": true,
         "localclick": [
           0
@@ -363,7 +364,25 @@
           "3": 4
         },
         "actions": {
-          "split": {
+          "selectImage": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "upperSave": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "bottomSave": {
             "localflag": true,
             "localclick": [
               0
@@ -376,7 +395,7 @@
         "banner": 0,
         "native": -10
       },
-      "/compress-pdf": {
+      "/watermark": {
         "localflag": true,
         "localclick": [
           0
@@ -386,7 +405,25 @@
           "3": 4
         },
         "actions": {
-          "compress": {
+          "selectImage": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "upperSave": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "bottomSave": {
             "localflag": true,
             "localclick": [
               0
@@ -399,7 +436,7 @@
         "banner": 0,
         "native": -10
       },
-      "/scan-review": {
+      "/batch": {
         "localflag": true,
         "localclick": [
           0
@@ -409,7 +446,71 @@
           "3": 4
         },
         "actions": {
-          "createPDF": {
+          "addImage": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "startProcess": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": 0,
+        "native": -10
+      },
+      "/metadata": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": -10,
+          "3": 4
+        },
+        "actions": {
+          "selectImage": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "removeExifData": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": 0,
+        "native": -10
+      },
+      "/utilities": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": -10,
+          "3": 4
+        },
+        "actions": {
+          "selectImage": {
             "localflag": true,
             "localclick": [
               0
