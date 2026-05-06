@@ -36,7 +36,7 @@
       "globalbanner": false,
       "rewardoverride": false,
       "overridetimer": 15,
-      "ratetimer": 15,
+      "ratetimer": 5000000,
       "maxadfailed": 2
     },
     "userconsent": false,
