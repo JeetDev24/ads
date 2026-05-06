@@ -9,12 +9,12 @@
   },
   "ids": {
     "google": {
-      "fullscreen": "ca-app-pub-3940256099942544/1033173712",
-      "reward": "ca-app-pub-7076963075082496/5757776449",
-      "rewardinter": "",
+      "fullscreen": "ca-app-pub-7765949279689956/9525059853",
+      "reward": "ca-app-pub-7765949279689956/8072377388",
+      "rewardinter": "ca-app-pub-7765949279689956/9962447661",
       "appopen": "",
       "banner": "",
-      "native": "ca-app-pub-7076963075082496/4444694779"
+      "native": ""
     },
     "unity": {
       "placementID": "",
