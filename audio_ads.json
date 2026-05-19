@@ -55,6 +55,61 @@
         "banner": 0,
         "native": -10
       },
+      "/editor": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": -10,
+          "3": 4
+        },
+        "actions": {
+          "chooseAudio": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "saveAudio": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": 0,
+        "native": -10
+      },
+      "/recorder": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": -10,
+          "3": 4
+        },
+        "actions": {
+          "saveAudio": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": 0,
+        "native": -10
+      },
       "/converter": {
         "localflag": true,
         "localclick": [
@@ -65,7 +120,7 @@
           "3": 4
         },
         "actions": {
-          "selectImage": {
+          "chooseAudio": {
             "localflag": true,
             "localclick": [
               0
@@ -74,16 +129,7 @@
               "0": -10
             }
           },
-          "convert": {
-            "localflag": true,
-            "localclick": [
-              0
-            ],
-            "localfail": {
-              "0": -10
-            }
-          },
-          "save": {
+          "saveAudio": {
             "localflag": true,
             "localclick": [
               0
@@ -92,6 +138,213 @@
               "0": -10
             }
           }
+        },
+        "banner": 0,
+        "native": -10
+      },
+      "/merger": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": -10,
+          "3": 4
+        },
+        "actions": {
+          "chooseAudio": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "saveAudio": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": 0,
+        "native": -10
+      },
+      "/player": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": -10,
+          "3": 4
+        },
+        "actions": {
+          "chooseAudio": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": 0,
+        "native": -10
+      },
+      "/controls": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": -10,
+          "3": 4
+        },
+        "actions": {
+          "chooseAudio": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "saveAudio": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": 0,
+        "native": -10
+      },
+      "/ringtone": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": -10,
+          "3": 4
+        },
+        "actions": {
+          "chooseAudio": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "saveAudio": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": 0,
+        "native": -10
+      },
+      "/loop": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": -10,
+          "3": 4
+        },
+        "actions": {
+          "chooseAudio": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "saveAudio": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": 0,
+        "native": -10
+      },
+      "/waveform": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": -10,
+          "3": 4
+        },
+        "actions": {
+          "chooseAudio": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "saveAudio": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": 0,
+        "native": -10
+      },
+      "/cache": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": -10,
+          "3": 4
+        },
+        "banner": 0,
+        "native": -10
+      },
+      "/files": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": -10,
+          "3": 4
         },
         "banner": 0,
         "native": -10
