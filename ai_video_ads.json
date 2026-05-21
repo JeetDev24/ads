@@ -1,0 +1,155 @@
+{
+  "os": "",
+  "assets": {
+    "privacyPolicy": "https://www.google.com/",
+    "shareApp": "https://www.google.com/",
+    "moreApp": "https://www.google.com/",
+    "rateus": "",
+    "mailID": ""
+  },
+  "ids": {
+    "google": {
+      "fullscreen": "ca-app-pub-3940256099942544/1033173712",
+      "reward": "ca-app-pub-7076963075082496/5757776449",
+      "rewardinter": "",
+      "appopen": "",
+      "banner": "",
+      "native": ""
+    },
+    "unity": {
+      "placementID": "",
+      "gameID": ""
+    },
+    "applovin": {
+      "id": "",
+      "fullScreen": ""
+    },
+    "ironsource": {
+      "appId": ""
+    }
+  },
+  "1.0.0": {
+    "app_name": "",
+    "globalconfig": {
+      "globalflag": false,
+      "globalnative": true,
+      "globalbanner": false,
+      "rewardoverride": false,
+      "overridetimer": 15,
+      "ratetimer": 15,
+      "maxadfailed": 2
+    },
+    "userconsent": false,
+    "isUpdate": false,
+    "updateurl": "",
+    "screens": {
+      "/BottomBarView": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": -10,
+          "3": 4
+        },
+        "actions": {
+          "generateVideo": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "removeBG": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": 0,
+        "native": -10
+      },
+      "/GenerateVideoView": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": -10,
+          "3": 4
+        },
+        "actions": {
+          "download": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "share": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": 0,
+        "native": -10
+      },
+      "/RemovedView": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": -10,
+          "3": 4
+        },
+        "actions": {
+          "download": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "share": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": 0,
+        "native": -10
+      }
+    },
+    "actions": {
+      "SplashScreen": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": -10
+        }
+      }
+    }
+  }
+}
