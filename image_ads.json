@@ -9,12 +9,12 @@
   },
   "ids": {
     "google": {
-      "fullscreen": "ca-app-pub-3940256099942544/1033173712",
-      "reward": "ca-app-pub-7076963075082496/5757776449",
+      "fullscreen": "",
+      "reward": "",
       "rewardinter": "",
       "appopen": "",
       "banner": "",
-      "native": "ca-app-pub-7076963075082496/4444694779"
+      "native": ""
     },
     "unity": {
       "placementID": "",
@@ -36,7 +36,7 @@
       "globalbanner": false,
       "rewardoverride": false,
       "overridetimer": 15,
-      "ratetimer": 15,
+      "ratetimer": 50000000,
       "maxadfailed": 2
     },
     "userconsent": false,
