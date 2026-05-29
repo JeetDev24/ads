@@ -1,9 +1,9 @@
 {
-  "os": "",
+  "os": "93c1dd47-e631-4375-b79e-9cf28e862ae7",
   "assets": {
-    "privacyPolicy": "https://www.google.com/",
-    "shareApp": "https://www.google.com/",
-    "moreApp": "https://www.google.com/",
+    "privacyPolicy": "https://sites.google.com/view/harihar-creation",
+    "shareApp": "https://play.google.com/store/apps/details?id=com.pdf.scanner.pdfeditor.pdfmaker.pdfviewer.free",
+    "moreApp": "https://play.google.com/store/apps/developer?id=Harihar+Creation",
     "rateus": "",
     "mailID": ""
   },
@@ -17,8 +17,8 @@
       "native": ""
     },
     "unity": {
-      "placementID": "",
-      "gameID": ""
+      "placementID": "Interstitial_Android",
+      "gameID": "6125239"
     },
     "applovin": {
       "id": "",
@@ -36,7 +36,7 @@
       "globalbanner": false,
       "rewardoverride": false,
       "overridetimer": 15,
-      "ratetimer": 5000000,
+      "ratetimer": 15,
       "maxadfailed": 2
     },
     "userconsent": false,
@@ -44,13 +44,18 @@
     "updateurl": "",
     "screens": {
       "/home": {
-        "localflag": false,
+        "localflag": true,
         "localclick": [
-          0
+          0,
+          -10,
+          3,
+          -10,
+          5
         ],
         "localfail": {
-          "0": -10,
-          "3": 4
+          "0": 3,
+          "3": 5,
+          "5": -10
         },
         "actions": {
           "documentInfo": {
@@ -72,35 +77,37 @@
             }
           },
           "security": {
-            "localflag": false,
+            "localflag": true,
             "localclick": [
               0
             ],
             "localfail": {
-              "0": -10
+              "0": 3,
+              "3": -10
             }
           },
           "saveToDevice": {
-            "localflag": false,
+            "localflag": true,
             "localclick": [
-              0
+              5
             ],
             "localfail": {
-              "0": -10
+              "3": -10,
+              "5": 3
             }
           }
         },
-        "banner": 0,
+        "banner": -10,
         "native": -10
       },
       "/pdf-viewer": {
-        "localflag": false,
+        "localflag": true,
         "localclick": [
           0
         ],
         "localfail": {
-          "0": -10,
-          "3": 4
+          "0": 3,
+          "3": -10
         },
         "actions": {
           "documentInfo": {
@@ -131,30 +138,33 @@
             }
           },
           "save": {
-            "localflag": false,
+            "localflag": true,
             "localclick": [
-              0
+              5
             ],
             "localfail": {
-              "0": -10
+              "3": -10,
+              "5": 3
             }
           },
           "saveAs": {
-            "localflag": false,
+            "localflag": true,
             "localclick": [
-              0
+              5
             ],
             "localfail": {
-              "0": -10
+              "3": -10,
+              "5": 3
             }
           },
           "duplicate": {
-            "localflag": false,
+            "localflag": true,
             "localclick": [
-              0
+              5
             ],
             "localfail": {
-              "0": -10
+              "3": -10,
+              "5": 3
             }
           },
           "compress": {
@@ -176,90 +186,95 @@
             }
           }
         },
-        "banner": 0,
+        "banner": -10,
         "native": -10
       },
       "/forms": {
-        "localflag": false,
+        "localflag": true,
         "localclick": [
           0
         ],
         "localfail": {
-          "0": -10,
-          "3": 4
+          "0": 3,
+          "3": -10
         },
         "actions": {
           "save": {
-            "localflag": false,
+            "localflag": true,
             "localclick": [
-              0
+              5
             ],
             "localfail": {
-              "0": -10
+              "3": -10,
+              "5": 3
             }
           }
         },
-        "banner": 0,
+        "banner": -10,
         "native": -10
       },
       "/security": {
-        "localflag": false,
+        "localflag": true,
         "localclick": [
           0
         ],
         "localfail": {
-          "0": -10,
-          "3": 4
+          "0": 3,
+          "3": -10
         },
         "actions": {
           "addPassword": {
-            "localflag": false,
+            "localflag": true,
             "localclick": [
-              0
+              5
             ],
             "localfail": {
-              "0": -10
+              "3": -10,
+              "5": 3
             }
           },
           "removePassword": {
-            "localflag": false,
+            "localflag": true,
             "localclick": [
-              0
+              5
             ],
             "localfail": {
-              "0": -10
+              "3": -10,
+              "5": 3
             }
           },
           "addWatermak": {
-            "localflag": false,
+            "localflag": true,
             "localclick": [
-              0
+              5
             ],
             "localfail": {
-              "0": -10
+              "3": -10,
+              "5": 3
             }
           }
         },
-        "banner": 0,
+        "banner": -10,
         "native": -10
       },
       "/pages": {
-        "localflag": false,
+        "localflag": true,
         "localclick": [
           0
         ],
         "localfail": {
-          "0": -10,
-          "3": 4
+          "0": 3,
+          "3": -10
         },
         "actions": {
           "savePDF": {
-            "localflag": false,
+            "localflag": true,
             "localclick": [
-              0
+              5
             ],
             "localfail": {
-              "0": -10
+              "3": -10,
+              "5": 3
             }
           },
           "splitPDF": {
@@ -281,118 +296,116 @@
             }
           }
         },
-        "banner": 0,
+        "banner": -10,
         "native": -10
       },
       "/tools": {
-        "localflag": false,
+        "localflag": true,
         "localclick": [
-          0
+          0,
+          -10,
+          3,
+          -10,
+          5
         ],
         "localfail": {
-          "0": -10,
-          "3": 4
+          "0": 3,
+          "3": 5,
+          "5": -10
         },
-        "actions": {
-          "convert": {
-            "localflag": false,
-            "localclick": [
-              0
-            ],
-            "localfail": {
-              "0": -10
-            }
-          }
-        },
-        "banner": 0,
+        "banner": -10,
         "native": -10
       },
       "/image-to-pdf": {
-        "localflag": false,
+        "localflag": true,
         "localclick": [
           0
         ],
         "localfail": {
-          "0": -10,
-          "3": 4
+          "0": 3,
+          "3": -10
         },
         "actions": {
           "convert": {
-            "localflag": false,
+            "localflag": true,
             "localclick": [
-              0
+              5
             ],
             "localfail": {
-              "0": -10
+              "3": -10,
+              "5": 3
             }
           }
         },
-        "banner": 0,
+        "banner": -10,
         "native": -10
       },
       "/merge-pdf": {
-        "localflag": false,
+        "localflag": true,
         "localclick": [
           0
         ],
         "localfail": {
-          "0": -10,
-          "3": 4
+          "0": 3,
+          "3": -10
         },
         "actions": {
           "merge": {
-            "localflag": false,
+            "localflag": true,
             "localclick": [
-              0
+              5
             ],
             "localfail": {
-              "0": -10
+              "3": -10,
+              "5": 3
             }
           }
         },
-        "banner": 0,
+        "banner": -10,
         "native": -10
       },
       "/split-pdf": {
-        "localflag": false,
+        "localflag": true,
         "localclick": [
           0
         ],
         "localfail": {
-          "0": -10,
-          "3": 4
+          "0": 3,
+          "3": -10
         },
         "actions": {
           "split": {
-            "localflag": false,
+            "localflag": true,
             "localclick": [
-              0
+              5
             ],
             "localfail": {
-              "0": -10
+              "3": -10,
+              "5": 3
             }
           }
         },
-        "banner": 0,
+        "banner": -10,
         "native": -10
       },
       "/compress-pdf": {
-        "localflag": false,
+        "localflag": true,
         "localclick": [
           0
         ],
         "localfail": {
-          "0": -10,
-          "3": 4
+          "0": 3,
+          "3": -10
         },
         "actions": {
           "compress": {
-            "localflag": false,
+            "localflag": true,
             "localclick": [
-              0
+              5
             ],
             "localfail": {
-              "0": -10
+              "3": -10,
+              "5": 3
             }
           }
         },
@@ -400,37 +413,39 @@
         "native": -10
       },
       "/scan-review": {
-        "localflag": false,
+        "localflag": true,
         "localclick": [
           0
         ],
         "localfail": {
-          "0": -10,
-          "3": 4
+          "0": 3,
+          "3": -10
         },
         "actions": {
           "createPDF": {
-            "localflag": false,
+            "localflag": true,
             "localclick": [
-              0
+              5
             ],
             "localfail": {
-              "0": -10
+              "3": -10,
+              "5": 3
             }
           }
         },
-        "banner": 0,
+        "banner": -10,
         "native": -10
       }
     },
     "actions": {
       "SplashScreen": {
-        "localflag": false,
+        "localflag": true,
         "localclick": [
           0
         ],
         "localfail": {
-          "0": -10
+          "0": 3,
+          "3": -10
         }
       }
     }
