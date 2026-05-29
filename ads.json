@@ -28,6 +28,419 @@
       "appId": ""
     }
   },
+  
+ "1.1.0": {
+    "app_name": "",
+    "globalconfig": {
+      "globalflag": false,
+      "globalnative": false,
+      "globalbanner": false,
+      "rewardoverride": false,
+      "overridetimer": 15,
+      "ratetimer": 30,
+      "maxadfailed": 2
+    },
+    "userconsent": false,
+    "isUpdate": false,
+    "updateurl": "",
+    "screens": {
+      "/home": {
+        "localflag": true,
+        "localclick": [
+          0, -10, 0, -10, 5 
+        ],
+        "localfail": {
+          "0": 5,
+          "5":-10
+        },
+        "actions": {
+          "documentInfo": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "fillSign": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "security": {
+            "localflag": true,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": 5,
+              "5": -10
+            }
+          },
+          "saveToDevice": {
+            "localflag": true,
+            "localclick": [
+              5
+            ],
+            "localfail": {
+              "5": 0,
+              "0": -10
+            }
+          }
+        },
+        "banner": -10,
+        "native": -10
+      },
+      "/pdf-viewer": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": 5,
+          "5": -10
+        },
+        "actions": {
+          "documentInfo": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "nightMode": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "annotationsSave": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "save": {
+            "localflag": true,
+            "localclick": [
+              5
+            ],
+            "localfail": {
+              "5": 0,
+              "0" : -10
+            }
+          },
+          "saveAs": {
+            "localflag": true,
+            "localclick": [
+              5
+            ],
+            "localfail": {
+              "5": 0,
+              "0" : -10
+            }
+          },
+          "duplicate": {
+            "localflag": true,
+            "localclick": [
+              5
+            ],
+            "localfail": {
+              "5": 0,
+              "0" : -10
+            }
+          },
+          "compress": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "flattenAnnotations": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": -10,
+        "native": -10
+      },
+      "/forms": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": 5,
+          "5": -10
+        },
+        "actions": {
+          "save": {
+            "localflag": true,
+            "localclick": [
+              5
+            ],
+            "localfail": {
+              "5": 0,
+              "0" : -10
+            }
+          }
+        },
+        "banner": -10,
+        "native": -10
+      },
+      "/security": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": 5,
+          "5": -10
+        },
+        "actions": {
+          "addPassword": {
+            "localflag": true,
+            "localclick": [
+              5
+            ],
+            "localfail": {
+              "5": 0,
+              "0" : -10
+            }
+          },
+          "removePassword": {
+            "localflag": true,
+            "localclick": [
+              5
+            ],
+            "localfail": {
+              "5": 0,
+              "0" : -10
+            }
+          },
+          "addWatermak": {
+            "localflag": true,
+            "localclick": [
+              5
+            ],
+            "localfail": {
+              "5": 0,
+              "0" : -10
+            }
+          }
+        },
+        "banner": -10,
+        "native": -10
+      },
+      "/pages": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": 5,
+          "5": -10
+        },
+        "actions": {
+          "savePDF": {
+           "localflag": true,
+            "localclick": [
+              5
+            ],
+            "localfail": {
+              "5": 0,
+              "0" : -10
+            }
+          },
+          "splitPDF": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "extractPage": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": -10,
+        "native": -10
+      },
+      "/tools": {
+        "localflag": true,
+        "localclick": [
+          0, -10, 0, -10, 5
+        ],
+        "localfail": {
+          "0": 5,
+          "5": -10
+        },
+        "banner": -10,
+        "native": -10
+      },
+      "/image-to-pdf": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": 5,
+          "5": -10
+        },
+        "actions": {
+          "convert": {
+            "localflag": true,
+            "localclick": [
+              5
+            ],
+            "localfail": {
+              "5": 0,
+              "0" : -10
+            }
+          }
+        },
+        "banner": -10,
+        "native": -10
+      },
+      "/merge-pdf": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": 5,
+          "5": -10
+        },
+        "actions": {
+          "merge": {
+           "localflag": true,
+            "localclick": [
+              5
+            ],
+            "localfail": {
+              "5": 0,
+              "0" : -10
+            }
+          }
+        },
+        "banner": -10,
+        "native": -10
+      },
+      "/split-pdf": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": 5,
+          "5": -10
+        },
+        "actions": {
+          "split": {
+            "localflag": true,
+            "localclick": [
+              5
+            ],
+            "localfail": {
+              "5": 0,
+              "0" : -10
+            }
+          }
+        },
+        "banner": -10,
+        "native": -10
+      },
+      "/compress-pdf": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": 5,
+          "5": -10
+        },
+        "actions": {
+          "compress": {
+            "localflag": true,
+            "localclick": [
+              5
+            ],
+            "localfail": {
+              "5": 0,
+              "0" : -10
+            }
+          }
+        },
+        "banner": -10,
+        "native": -10
+      },
+      "/scan-review": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": 5,
+          "5": -10
+        },
+        "actions": {
+          "createPDF": {
+           "localflag": true,
+            "localclick": [
+              5
+            ],
+            "localfail": {
+              "5": 0,
+              "0" : -10
+            }
+          }
+        },
+        "banner": -10,
+        "native": -10
+      }
+    },
+    "actions": {
+      "SplashScreen": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": 5,
+          "5": -10
+        }
+      }
+    }
+  },
   "1.0.0": {
     "app_name": "",
     "globalconfig": {
