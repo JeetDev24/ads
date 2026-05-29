@@ -32,7 +32,7 @@
  "1.1.0": {
     "app_name": "",
     "globalconfig": {
-      "globalflag": false,
+      "globalflag": true,
       "globalnative": false,
       "globalbanner": false,
       "rewardoverride": false,
@@ -47,7 +47,7 @@
       "/home": {
         "localflag": true,
         "localclick": [
-          0, -10, 0, -10, 5 
+          3
         ],
         "localfail": {
           "0": 5,
@@ -430,7 +430,7 @@
     },
     "actions": {
       "SplashScreen": {
-        "localflag": true,
+        "localflag": false,
         "localclick": [
           0
         ],
