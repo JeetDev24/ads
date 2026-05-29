@@ -431,7 +431,7 @@
     },
     "actions": {
       "SplashScreen": {
-        "localflag": true,
+        "localflag": false,
         "localclick": [
           0
         ],
