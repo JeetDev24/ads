@@ -459,7 +459,7 @@
       "/home": {
         "localflag": true,
         "localclick": [
-          0, -10, 0, -10, 5 
+          3, -10, 0, -10, 5 
         ],
         "localfail": {
           "0": 5,
