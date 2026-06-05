@@ -1,17 +1,17 @@
 {
-  "os": "",
+  "os": "d747233a-128f-4b75-a301-2b04272a39ad",
   "assets": {
-    "privacyPolicy": "https://www.google.com/",
-    "shareApp": "https://www.google.com/",
-    "moreApp": "https://www.google.com/",
+    "privacyPolicy": "https://sites.google.com/view/harihar-creation",
+    "shareApp": "https://play.google.com/store/apps/details?id=com.imageconverter.pngconverter.compresser",
+    "moreApp": "https://play.google.com/store/apps/developer?id=Harihar+Creation",
     "rateus": "",
     "mailID": ""
   },
   "ids": {
     "google": {
-      "fullscreen": "",
-      "reward": "",
-      "rewardinter": "",
+      "fullscreen": "ca-app-pub-7765949279689956/7891360666",
+      "reward": "ca-app-pub-7765949279689956/2437677830",
+      "rewardinter": "ca-app-pub-7765949279689956/4085801422",
       "appopen": "",
       "banner": "",
       "native": ""
@@ -31,12 +31,12 @@
   "1.0.0": {
     "app_name": "",
     "globalconfig": {
-      "globalflag": false,
+      "globalflag": true,
       "globalnative": true,
       "globalbanner": false,
       "rewardoverride": false,
       "overridetimer": 15,
-      "ratetimer": 50000000,
+      "ratetimer": 30,
       "maxadfailed": 2
     },
     "userconsent": false,
@@ -46,11 +46,10 @@
       "/": {
         "localflag": true,
         "localclick": [
-          0
+          0,-10,-10,5
         ],
         "localfail": {
-          "0": -10,
-          "3": 4
+          "0": -10
         },
         "banner": 0,
         "native": -10
@@ -58,11 +57,10 @@
       "/all-tools": {
         "localflag": true,
         "localclick": [
-          0
+          0,-10,-10,5
         ],
         "localfail": {
-          "0": -10,
-          "3": 4
+          "0": -10
         },
         "banner": 0,
         "native": -10
@@ -73,12 +71,11 @@
           0
         ],
         "localfail": {
-          "0": -10,
-          "3": 4
+          "0": -10
         },
         "actions": {
           "selectImage": {
-            "localflag": true,
+            "localflag": false,
             "localclick": [
               0
             ],
@@ -92,20 +89,22 @@
               0
             ],
             "localfail": {
-              "0": -10
+              "0": 5,
+              "5":-10
             }
           },
           "save": {
             "localflag": true,
             "localclick": [
-              0
+              5
             ],
             "localfail": {
+              "5": 0,
               "0": -10
             }
           }
         },
-        "banner": 0,
+        "banner": -10,
         "native": -10
       },
       "/compression": {
@@ -114,12 +113,11 @@
           0
         ],
         "localfail": {
-          "0": -10,
-          "3": 4
+          "0": -10
         },
         "actions": {
           "selectImage": {
-            "localflag": true,
+            "localflag": false,
             "localclick": [
               0
             ],
@@ -133,20 +131,22 @@
               0
             ],
             "localfail": {
-              "0": -10
+              "0": 5,
+              "5": -10
             }
           },
           "save": {
             "localflag": true,
             "localclick": [
-              0
+              5
             ],
             "localfail": {
+              "5": 0,
               "0": -10
             }
           }
         },
-        "banner": 0,
+        "banner": -10,
         "native": -10
       },
       "/resize": {
@@ -155,12 +155,11 @@
           0
         ],
         "localfail": {
-          "0": -10,
-          "3": 4
+          "0": -10
         },
         "actions": {
           "selectImage": {
-            "localflag": true,
+            "localflag": false,
             "localclick": [
               0
             ],
@@ -174,20 +173,22 @@
               0
             ],
             "localfail": {
-              "0": -10
+              "0": 5,
+              "5": -10
             }
           },
           "save": {
             "localflag": true,
             "localclick": [
-              0
+              5
             ],
             "localfail": {
+              "5": 0,
               "0": -10
             }
           }
         },
-        "banner": 0,
+        "banner": -10,
         "native": -10
       },
       "/editor": {
@@ -196,12 +197,11 @@
           0
         ],
         "localfail": {
-          "0": -10,
-          "3": 4
+          "0": -10
         },
         "actions": {
           "selectImage": {
-            "localflag": true,
+            "localflag": false,
             "localclick": [
               0
             ],
@@ -212,23 +212,25 @@
           "upperSave": {
             "localflag": true,
             "localclick": [
-              0
+              5
             ],
             "localfail": {
+              "5": 0,
               "0": -10
             }
           },
           "bottomSave": {
             "localflag": true,
             "localclick": [
-              0
+              5
             ],
             "localfail": {
+               "5": 0,
               "0": -10
             }
           }
         },
-        "banner": 0,
+        "banner": -10,
         "native": -10
       },
       "/adjustments": {
@@ -237,12 +239,11 @@
           0
         ],
         "localfail": {
-          "0": -10,
-          "3": 4
+          "0": -10
         },
         "actions": {
           "selectImage": {
-            "localflag": true,
+            "localflag": false,
             "localclick": [
               0
             ],
@@ -253,23 +254,25 @@
           "upperSave": {
             "localflag": true,
             "localclick": [
-              0
+              5
             ],
             "localfail": {
+              "5": 0,
               "0": -10
             }
           },
           "bottomSave": {
             "localflag": true,
-            "localclick": [
-              0
+             "localclick": [
+              5
             ],
             "localfail": {
+              "5": 0,
               "0": -10
             }
           }
         },
-        "banner": 0,
+        "banner": -10,
         "native": -10
       },
       "/filters": {
@@ -278,12 +281,11 @@
           0
         ],
         "localfail": {
-          "0": -10,
-          "3": 4
+          "0": -10
         },
         "actions": {
           "selectImage": {
-            "localflag": true,
+            "localflag": false,
             "localclick": [
               0
             ],
@@ -293,24 +295,26 @@
           },
           "upperSave": {
             "localflag": true,
-            "localclick": [
-              0
+             "localclick": [
+              5
             ],
             "localfail": {
+              "5": 0,
               "0": -10
             }
           },
           "bottomSave": {
             "localflag": true,
             "localclick": [
-              0
+              5
             ],
             "localfail": {
+              "5": 0,
               "0": -10
             }
           }
         },
-        "banner": 0,
+        "banner": -10,
         "native": -10
       },
       "/effects": {
@@ -319,12 +323,11 @@
           0
         ],
         "localfail": {
-          "0": -10,
-          "3": 4
+          "0": -10
         },
         "actions": {
           "selectImage": {
-            "localflag": true,
+            "localflag": false,
             "localclick": [
               0
             ],
@@ -335,18 +338,20 @@
           "upperSave": {
             "localflag": true,
             "localclick": [
-              0
+              5
             ],
             "localfail": {
+              "5": 0,
               "0": -10
             }
           },
           "bottomSave": {
             "localflag": true,
             "localclick": [
-              0
+              5
             ],
             "localfail": {
+              "5": 0,
               "0": -10
             }
           }
@@ -360,12 +365,11 @@
           0
         ],
         "localfail": {
-          "0": -10,
-          "3": 4
+          "0": -10
         },
         "actions": {
           "selectImage": {
-            "localflag": true,
+            "localflag": false,
             "localclick": [
               0
             ],
@@ -375,19 +379,21 @@
           },
           "upperSave": {
             "localflag": true,
-            "localclick": [
-              0
+             "localclick": [
+              5
             ],
             "localfail": {
+              "5": 0,
               "0": -10
             }
           },
           "bottomSave": {
             "localflag": true,
-            "localclick": [
-              0
+             "localclick": [
+              5
             ],
             "localfail": {
+              "5": 0,
               "0": -10
             }
           }
@@ -401,12 +407,11 @@
           0
         ],
         "localfail": {
-          "0": -10,
-          "3": 4
+          "0": -10
         },
         "actions": {
           "selectImage": {
-            "localflag": true,
+            "localflag": false,
             "localclick": [
               0
             ],
@@ -416,19 +421,21 @@
           },
           "upperSave": {
             "localflag": true,
-            "localclick": [
-              0
+             "localclick": [
+              5
             ],
             "localfail": {
+              "5": 0,
               "0": -10
             }
           },
           "bottomSave": {
             "localflag": true,
-            "localclick": [
-              0
+             "localclick": [
+              5
             ],
             "localfail": {
+              "5": 0,
               "0": -10
             }
           }
@@ -442,12 +449,11 @@
           0
         ],
         "localfail": {
-          "0": -10,
-          "3": 4
+          "0": -10
         },
         "actions": {
           "addImage": {
-            "localflag": true,
+            "localflag": false,
             "localclick": [
               0
             ],
@@ -458,9 +464,10 @@
           "startProcess": {
             "localflag": true,
             "localclick": [
-              0
+              5
             ],
             "localfail": {
+              "5": 0,
               "0": -10
             }
           }
@@ -469,17 +476,16 @@
         "native": -10
       },
       "/metadata": {
-        "localflag": true,
+        "localflag": false,
         "localclick": [
           0
         ],
         "localfail": {
-          "0": -10,
-          "3": 4
+          "0": -10
         },
         "actions": {
           "selectImage": {
-            "localflag": true,
+            "localflag": false,
             "localclick": [
               0
             ],
@@ -488,7 +494,7 @@
             }
           },
           "removeExifData": {
-            "localflag": true,
+            "localflag": false,
             "localclick": [
               0
             ],
@@ -501,7 +507,7 @@
         "native": -10
       },
       "/utilities": {
-        "localflag": true,
+        "localflag": false,
         "localclick": [
           0
         ],
@@ -511,7 +517,7 @@
         },
         "actions": {
           "selectImage": {
-            "localflag": true,
+            "localflag": false,
             "localclick": [
               0
             ],
@@ -531,7 +537,8 @@
           0
         ],
         "localfail": {
-          "0": -10
+          "0": 5,
+          "5": -10
         }
       }
     }
