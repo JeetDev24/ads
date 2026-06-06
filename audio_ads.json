@@ -9,9 +9,9 @@
   },
   "ids": {
     "google": {
-      "fullscreen": "ca-app-pub-3940256099942544/1033173712",
-      "reward": "ca-app-pub-3940256099942544/5224354917",
-      "rewardinter": "ca-app-pub-3940256099942544/5354046379",
+      "fullscreen": "",
+      "reward": "",
+      "rewardinter": "",
       "appopen": "",
       "banner": "",
       "native": ""
@@ -31,12 +31,12 @@
   "1.0.0": {
     "app_name": "",
     "globalconfig": {
-      "globalflag": true,
+      "globalflag": false,
       "globalnative": true,
       "globalbanner": false,
       "rewardoverride": false,
       "overridetimer": 15,
-      "ratetimer": 15,
+      "ratetimer": 50000000,
       "maxadfailed": 2
     },
     "userconsent": false,
