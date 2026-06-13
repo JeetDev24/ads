@@ -1,0 +1,1104 @@
+{
+  "os": "",
+  "assets": {
+    "privacyPolicy": "https://sites.google.com/view/harihar-creation",
+    "shareApp": "https://play.google.com/store/apps/details?id=com.pdf.scanner.pdfeditor.pdfmaker.pdfviewer.free",
+    "moreApp": "https://play.google.com/store/apps/developer?id=Harihar+Creation",
+    "rateus": "",
+    "mailID": ""
+  },
+  "ids": {
+    "google": {
+      "fullscreen": "ca-app-pub-3940256099942544/1033173712",
+      "reward": "ca-app-pub-3940256099942544/5224354917",
+      "rewardinter": "ca-app-pub-3940256099942544/5354046379",
+      "appopen": "",
+      "banner": "",
+      "native": ""
+    },
+    "unity": {
+      "placementID": "",
+      "gameID": ""
+    },
+    "applovin": {
+      "id": "",
+      "fullScreen": ""
+    },
+    "ironsource": {
+      "appId": ""
+    }
+  },
+  "1.0.0": {
+    "app_name": "",
+    "globalconfig": {
+      "globalflag": true,
+      "globalnative": false,
+      "globalbanner": false,
+      "rewardoverride": false,
+      "overridetimer": 15,
+      "ratetimer": 5000000,
+      "maxadfailed": 2
+    },
+    "userconsent": false,
+    "isUpdate": false,
+    "updateurl": "",
+    "screens": {
+      "/": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": 5,
+          "5": -10
+        },
+        "actions": {
+          "documentInfo": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": -10,
+        "native": -10
+      },
+      "/compressor": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": 5,
+          "5": -10
+        },
+        "actions": {
+          "addVideo": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "compress": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "addAnotherVideo": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": -10,
+        "native": -10
+      },
+      "/converter": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": 5,
+          "5": -10
+        },
+        "actions": {
+          "addVideo": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "convert": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "addAnotherVideo": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": -10,
+        "native": -10
+      },
+      "/trimmer": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": 5,
+          "5": -10
+        },
+        "actions": {
+          "addVideo": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "trim": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "addAnotherVideo": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": -10,
+        "native": -10
+      },
+      "/merger": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": 5,
+          "5": -10
+        },
+        "actions": {
+          "addVideo": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "merge": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "addAnotherVideo": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": -10,
+        "native": -10
+      },
+      "/splitter": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": 5,
+          "5": -10
+        },
+        "actions": {
+          "addVideo": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "split": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "addAnotherVideo": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": -10,
+        "native": -10
+      },
+      "/cropper": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": 5,
+          "5": -10
+        },
+        "actions": {
+          "addVideo": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "crop": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "addAnotherVideo": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": -10,
+        "native": -10
+      },
+      "/resizer": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": 5,
+          "5": -10
+        },
+        "actions": {
+          "addVideo": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "resize": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "addAnotherVideo": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": -10,
+        "native": -10
+      },
+      "/rotate-flip": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": 5,
+          "5": -10
+        },
+        "actions": {
+          "addVideo": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "rotate-flip": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "addAnotherVideo": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": -10,
+        "native": -10
+      },
+      "/reverse": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": 5,
+          "5": -10
+        },
+        "actions": {
+          "addVideo": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "reverse": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "addAnotherVideo": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": -10,
+        "native": -10
+      },
+      "/speed-changer": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": 5,
+          "5": -10
+        },
+        "actions": {
+          "addVideo": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "speed-change": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "addAnotherVideo": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": -10,
+        "native": -10
+      },
+      "/muter": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": 5,
+          "5": -10
+        },
+        "actions": {
+          "addVideo": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "mute": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "addAnotherVideo": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": -10,
+        "native": -10
+      },
+      "/audio-extractor": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": 5,
+          "5": -10
+        },
+        "actions": {
+          "addVideo": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "audio-extract": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "addAnotherVideo": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": -10,
+        "native": -10
+      },
+      "/audio-replacer": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": 5,
+          "5": -10
+        },
+        "actions": {
+          "addVideo": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "audio-replace": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "addAnotherVideo": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": -10,
+        "native": -10
+      },
+      "/volume-booster": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": 5,
+          "5": -10
+        },
+        "actions": {
+          "addVideo": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "volume-boost": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "addAnotherVideo": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": -10,
+        "native": -10
+      },
+      "/video-to-gif": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": 5,
+          "5": -10
+        },
+        "actions": {
+          "addVideo": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "video-to-gif": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "addAnotherVideo": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": -10,
+        "native": -10
+      },
+      "/gif-to-video": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": 5,
+          "5": -10
+        },
+        "actions": {
+          "addVideo": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "gif-to-video": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "addAnotherVideo": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": -10,
+        "native": -10
+      },
+      "/video-to-images": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": 5,
+          "5": -10
+        },
+        "actions": {
+          "addVideo": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "video-to-images": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "addAnotherVideo": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": -10,
+        "native": -10
+      },
+      "/images-to-video": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": 5,
+          "5": -10
+        },
+        "actions": {
+          "addVideo": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "images-to-video": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "addAnotherVideo": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": -10,
+        "native": -10
+      },
+      "/screenshot": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": 5,
+          "5": -10
+        },
+        "actions": {
+          "addVideo": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "screenshot": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "addAnotherVideo": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": -10,
+        "native": -10
+      },
+      "/video-adjustments": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": 5,
+          "5": -10
+        },
+        "actions": {
+          "addVideo": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "video-adjustments": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "addAnotherVideo": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": -10,
+        "native": -10
+      },
+      "/watermark": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": 5,
+          "5": -10
+        },
+        "actions": {
+          "addVideo": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "watermark": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "addAnotherVideo": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": -10,
+        "native": -10
+      },
+      "/duplicate-finder": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": 5,
+          "5": -10
+        },
+        "actions": {
+          "startScan": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "scanAgain": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": -10,
+        "native": -10
+      },
+      "/large-file-finder'": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": 5,
+          "5": -10
+        },
+        "actions": {
+          "startScan": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "scanAgain": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": -10,
+        "native": -10
+      },
+      "/storage-cleaner": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": 5,
+          "5": -10
+        },
+        "actions": {
+          "startScan": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "scanAgain": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": -10,
+        "native": -10
+      },
+      "/video-locker": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": 5,
+          "5": -10
+        },
+        "actions": {
+          "addVideo": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": -10,
+        "native": -10
+      },
+      "/smart-compression": {
+        "localflag": true,
+        "localclick": [
+          0
+        ],
+        "localfail": {
+          "0": 5,
+          "5": -10
+        },
+        "actions": {
+          "addVideo": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "compress": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          },
+          "addAnotherVideo": {
+            "localflag": false,
+            "localclick": [
+              0
+            ],
+            "localfail": {
+              "0": -10
+            }
+          }
+        },
+        "banner": -10,
+        "native": -10
+      },
+      "actions": {
+        "SplashScreen": {
+          "localflag": true,
+          "localclick": [
+            0
+          ],
+          "localfail": {
+            "0": 5,
+            "5": -10
+          }
+        }
+      }
+    }
+  }
+}
