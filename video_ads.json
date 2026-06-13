@@ -1086,8 +1086,9 @@
         },
         "banner": -10,
         "native": -10
-      },
-      "actions": {
+      }
+    },
+    "actions": {
         "SplashScreen": {
           "localflag": true,
           "localclick": [
@@ -1099,6 +1100,5 @@
           }
         }
       }
-    }
   }
 }
